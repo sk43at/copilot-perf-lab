@@ -1,0 +1,10 @@
+{
+  "name": "copilot-perf-lab",
+  "version": "1.0.0",
+  "description": "A lightweight performance lab with a benchmarked hot path and a PR-worthy optimization.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
