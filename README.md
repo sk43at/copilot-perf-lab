@@ -19,8 +19,9 @@ This tiny JavaScript project is built to demonstrate a realistic performance rev
 
 The project’s duplicate check originally scanned the full list for every item. The optimized implementation uses a Set so each value is checked once, reducing the complexity from O(n²) to O(n).
 
-## Run tests
+## Run tests and benchmark
 
 ```bash
 npm test
+node src/benchmark.js
 ```
