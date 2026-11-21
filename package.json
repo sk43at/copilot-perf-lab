@@ -4,7 +4,8 @@
   "description": "A lightweight performance lab with a benchmarked hot path and a PR-worthy optimization.",
   "type": "module",
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "benchmark": "node src/benchmark.js"
   },
   "license": "MIT"
 }
