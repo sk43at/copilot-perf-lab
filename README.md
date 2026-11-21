@@ -23,7 +23,7 @@ The project’s duplicate check originally scanned the full list for every item.
 
 ```bash
 npm test
-node src/benchmark.js
+npm run benchmark
 ```
 
 The benchmark warms up each implementation before timing five runs on the same input and reports the median to reduce JIT and timing noise. It also checks that both implementations return the same result.
